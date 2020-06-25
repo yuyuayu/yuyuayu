@@ -128,7 +128,7 @@ var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
 var requiredFields = requestSetting(['nick','mail','link'],'nick')
 let friends = 'd805e09149cf72dd614df5d3431682dc,aa6d32034ada90c352ebcb5ae06e5d9c,a6abe81a0f05b84f3033179586aaa6cd'.split(',')
 let master = '74171b206c6c276798647a6970e966dc'.split(',')
-let tagMeta = '本锅,小伙伴,访客'.split(',')
+let tagMeta = '锅锅,伙伴,访客'.split(',')
 
 window.valine = new Valine({
   el:'#vcomment',
@@ -136,7 +136,7 @@ window.valine = new Valine({
   appKey: '2G3zDNdFVnG3GszaLIxFCVlt',
   notify: false,
   verify: false,
-  placeholder: '留下昵称和邮箱，会更快收到回复哦＾Ｕ＾ノ~',
+  placeholder: '昵称可填写QQ号，自动提取您的昵称和头像哦',
   avatar: 'monsterid',
   meta: guestInfo,
   pageSize: '10',
@@ -150,7 +150,7 @@ window.valine = new Valine({
   master: master,
   friends: friends,
   tagMeta: tagMeta,
-  metaPlaceholder: {}
+  metaPlaceholder: {"nick":"昵称/QQ号(必填)","mail":"邮箱(选填)","link":"网址(https://)"}
 });</script></div></article></main><footer id="footer" style="background-image: url(https://s1.ax1x.com/2020/06/25/NwL4sJ.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 <i style="color:#FF6A6A" class="fa fa-heartbeat"></i> 小易锅</div><div class="framework-info"><span>我们的 </span><a href="http://yuyuayu.github.io" target="_blank" rel="noopener"><span>官网</span></a><span class="footer-separator">|</span><span>正在 </span><a href="http://yuyuayu.github.io" target="_blank" rel="noopener"><span>准备中</span></a></div><div class="footer_custom_text">灵魂不同，热爱相同</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><button id="readmode" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" title="缩小字体"><i class="fas fa-minus"></i></button><button class="translate_chn_to_cht" id="translateLink" title="简繁转换">繁</button><button id="darkmode" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fas fa-comments"></i></a><button id="go-up" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script id="canvas_nest" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="/js/third-party/canvas-nest.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = false;
 document.body.addEventListener('input', POWERMODE);
