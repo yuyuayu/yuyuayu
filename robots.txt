@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /home/
+Allow: /categories/
+Allow: /tags/ 
+Allow: /resources/ 
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: http://sweego.top/sitemap.xml
+Sitemap: http://sweego.top/baidusitemap.xml
