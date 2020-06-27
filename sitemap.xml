@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sweego.top/artitalk/index.html</loc>
+    
+    <lastmod>2020-06-27T13:57:39.370Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sweego.top/hello-world.html</loc>
     
     <lastmod>2020-06-27T13:27:24.538Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://sweego.top/duanwujie.html</loc>
     
     <lastmod>2020-06-25T05:59:41.974Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sweego.top/artitalk/index.html</loc>
-    
-    <lastmod>2020-06-25T02:20:23.789Z</lastmod>
     
   </url>
   
